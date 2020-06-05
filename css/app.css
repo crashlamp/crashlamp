@@ -1,45 +1,68 @@
+img{
+  max-width: 100%;
+  padding-top: 2px;
+}
+
 .container{
   width: 100%;
-  height: 250px;
   border: 3px solid black;
   margin-bottom: 10px;
   float: left;
-  box-shadow: 0px 0px 10px 5px #222222;
+  box-shadow: 0px 0px 10px 5px #aaaaaaa;
   background-color: #3a3a3a;
+  text-align: center;
+  overflow: hidden;
+}
+
+.menubar{
+  width: 100%;
+  background-color: #d9e9e9;
+  margin-bottom: 10px;
   text-align: center;
   overflow: hidden;
 }
 
 h1{
   font-family: Comic Sans MS;
-  font-size: 300%;
+  font-size: 240%;
   text-align: center;
   color: #555555;
   text-decoration: underline;
   text-shadow: 3px 2px #222222;
-  margin-bottom: 100px;
+  margin-bottom: 75px;
+}
+
+h2{
+  font-family: Comic Sans MS;
+  font-size: 200%;
+  text-align: center;
+  color: #555555;
+  text-decoration: underline;
+  text-shadow: 3px 2px #222222;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 p{
   text-align: center;
   font-family: "Courier New", Courier, monospace;
-  font-size: 140%
+  font-size: 140%;
+  line-height: 120%;
 }
 
-.menu_bar{
+.menubar_box{
   height: 40px;
   width: 100%;
-  margin-bottom: 100px;
-  background-color: #3a3a3a;
+  margin-bottom: 25px;
   color: lavender;
   text-align: center;
 }
 
 .box{
   height: 25px;
-  width: 15%;
+  width: 13%;
   overflow-x: hidden;
-  margin: 3px;
+  border: 1px solid black;
   background-color: #5A54A9;
   float: left;
   font-size: 130%;
