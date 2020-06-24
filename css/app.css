@@ -4,6 +4,7 @@ img{
 }
 
 .container{
+  position: fixed;
   width: 100%;
   border: 3px solid black;
   margin-bottom: 10px;
@@ -21,6 +22,11 @@ img{
   margin-right: auto;
 }
 
+.spacer{
+  width: 100%;
+  height: 290px;
+}
+
 .song{
   width: 65%;
   max-width: 800px;
@@ -36,6 +42,8 @@ img{
 }
 
 .menubar{
+  position: fixed;
+  padding-top: 300px;
   width: 100%;
   background-color: #d9e9e9;
   margin-bottom: 50px;
@@ -73,6 +81,7 @@ p{
 }
 
 .menubar_box{
+  position: fixed;
   height: 40px;
   width: 100%;
   margin-bottom: 25px;
@@ -100,7 +109,6 @@ p{
     font-size: 100%;
     height: 18px;
   }
-
 }
 
 @media screen and (max-width: 750px) {
@@ -108,5 +116,71 @@ p{
     font-size: 75%;
     height: 15px;
     width: 13.5%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .spacer {
+    height: 270px;
+  }
+}
+
+@media screen and (max-width: 615px) {
+  .spacer {
+    height: 255px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .spacer {
+    height: 245px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .spacer {
+    height: 235px;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .spacer {
+    height: 225px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .spacer {
+    height: 215px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .spacer {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .spacer {
+    height: 190px;
+  }
+}
+
+@media screen and (max-width: 405px) {
+  .spacer {
+    height: 175px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .spacer {
+    height: 165px;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  .spacer {
+    height: 155px;
   }
 }
