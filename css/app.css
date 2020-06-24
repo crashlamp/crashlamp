@@ -88,6 +88,11 @@ p{
   background-color: #9Ac9e1;
   float: left;
   font-size: 130%;
+  transition: transform .15s;
+}
+
+.box:hover{
+  transform: scale(1.11);
 }
 
 @media screen and (max-width: 1000px) {
